@@ -5,7 +5,7 @@ document.getElementById("button").addEventListener("click", function(){
 function stars (n){
     let result = "";
       for (let i = 0 ; i < n ; i++){
-          let line = "!";
+          let line = "";
           let whiteSpace = (n - i - 1);
           line += " ".repeat(whiteSpace)
           let starsCount = 2 * i + 1;
